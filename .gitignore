@@ -133,3 +133,6 @@ dist
 *package-lock.json
 *.exe 
 *daemon/
+*/folder_monitor/Failure
+*/folder_monitor/FolderToBeMonitored
+*/folder_monitor/Success
