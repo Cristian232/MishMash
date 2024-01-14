@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:ns4="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2 http://docs.oasis-open.org/ubl/os-UBL-2.1/xsd/maindoc/UBL-Invoice-2.1.xsd">
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:efactura.mfinante.ro:CIUS-RO:1.0.1</cbc:CustomizationID>
+    <cbc:ID>1528002096</cbc:ID>
+    <cbc:IssueDate>2023-10-02</cbc:IssueDate>
+    <cbc:DueDate>2024-08-04</cbc:DueDate>
+    <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>RON</cbc:DocumentCurrencyCode>
+    <cbc:TaxCurrencyCode>EUR</cbc:TaxCurrencyCode>
+    <cac:InvoicePeriod>
+        <cbc:DescriptionCode>3</cbc:DescriptionCode>
+    </cac:InvoicePeriod>
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Snyder LLC</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>046 Valerie Stravenue</cbc:StreetName>
+                <cbc:CityName>North Lynn</cbc:CityName>
+                <cbc:PostalZone>03450</cbc:PostalZone>
+                <cbc:CountrySubentity>RO-B</cbc:CountrySubentity>
+                <cac:Country>
+                    <cbc:IdentificationCode>RO</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+            <cac:PartyTaxScheme>
+                <cbc:CompanyID>4290446273</cbc:CompanyID>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                </cac:TaxScheme>
+            </cac:PartyTaxScheme>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName>Shelton PLC</cbc:RegistrationName>
+            </cac:PartyLegalEntity>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Love-Patel</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>638 Brian Throughway</cbc:StreetName>
+                <cbc:CityName>Lake Valerieberg</cbc:CityName>
+                <cbc:PostalZone>95096</cbc:PostalZone>
+                <cbc:CountrySubentity>RO-B</cbc:CountrySubentity>
+                <cac:Country>
+                    <cbc:IdentificationCode>RO</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+            <cac:PartyTaxScheme>
+                <cbc:CompanyID>1953256871</cbc:CompanyID>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                </cac:TaxScheme>
+            </cac:PartyTaxScheme>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName>Mays-Wilson</cbc:RegistrationName>
+            </cac:PartyLegalEntity>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+    <cac:Delivery>
+        <cac:DeliveryLocation>
+            <cac:Address>
+                <cbc:StreetName>2295 Laura Trail</cbc:StreetName>
+                <cbc:CityName>South Cole</cbc:CityName>
+                <cbc:PostalZone>49747</cbc:PostalZone>
+                <cbc:CountrySubentity>RO-AB</cbc:CountrySubentity>
+                <cac:Country>
+                    <cbc:IdentificationCode>RO</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:Address>
+        </cac:DeliveryLocation>
+    </cac:Delivery>
+    <cac:PaymentMeans>
+        <cbc:PaymentMeansCode>16</cbc:PaymentMeansCode>
+    </cac:PaymentMeans>
+    <cac:TaxTotal>
+        <cbc:TaxAmount currencyID="RON">183.43</cbc:TaxAmount>
+        <cac:TaxSubtotal>
+            <cbc:TaxableAmount currencyID="RON">6668.68</cbc:TaxableAmount>
+            <cbc:TaxAmount currencyID="RON">183.43</cbc:TaxAmount>
+            <cac:TaxCategory>
+                <cbc:ID>N</cbc:ID>
+                <cbc:Percent>3.05</cbc:Percent>
+                <cbc:TaxExemptionReason>enhance back-end action-items</cbc:TaxExemptionReason>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                </cac:TaxScheme>
+            </cac:TaxCategory>
+        </cac:TaxSubtotal>
+        <cac:TaxSubtotal>
+            <cbc:TaxableAmount currencyID="RON">6668.68</cbc:TaxableAmount>
+            <cbc:TaxAmount currencyID="RON">183.43</cbc:TaxAmount>
+            <cac:TaxCategory>
+                <cbc:ID>N</cbc:ID>
+                <cbc:Percent>3.05</cbc:Percent>
+                <cbc:TaxExemptionReasonCode>76166</cbc:TaxExemptionReasonCode>
+                <cbc:TaxExemptionReason>enhance back-end action-items</cbc:TaxExemptionReason>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                </cac:TaxScheme>
+            </cac:TaxCategory>
+        </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:TaxTotal>
+        <cbc:TaxAmount currencyID="RON">183.43</cbc:TaxAmount>
+    </cac:TaxTotal>
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="RON">6385.9</cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="RON">7322.58</cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="RON">5345.72</cbc:TaxInclusiveAmount>
+        <cbc:AllowanceTotalAmount currencyID="RON">630.19</cbc:AllowanceTotalAmount>
+        <cbc:ChargeTotalAmount currencyID="RON">125.78</cbc:ChargeTotalAmount>
+        <cbc:PrepaidAmount currencyID="RON">706.65</cbc:PrepaidAmount>
+        <cbc:PayableRoundingAmount currencyID="RON">22.71</cbc:PayableRoundingAmount>
+        <cbc:PayableAmount currencyID="RON">-2884.34</cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="24">75.69</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="RON">6385.9</cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Name>energy</cbc:Name>
+            <cac:ClassifiedTaxCategory>
+                <cbc:ID>N</cbc:ID>
+                <cbc:Percent>2.42</cbc:Percent>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                </cac:TaxScheme>
+            </cac:ClassifiedTaxCategory>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="RON">409.64</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+</Invoice>
+<!--XML generat cu aplicatia ANAF stage Beta-->

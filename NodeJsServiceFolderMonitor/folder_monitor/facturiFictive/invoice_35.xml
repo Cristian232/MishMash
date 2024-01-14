@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:ns4="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2 http://docs.oasis-open.org/ubl/os-UBL-2.1/xsd/maindoc/UBL-Invoice-2.1.xsd">
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:efactura.mfinante.ro:CIUS-RO:1.0.1</cbc:CustomizationID>
+    <cbc:ID>5895636739</cbc:ID>
+    <cbc:IssueDate>2023-03-17</cbc:IssueDate>
+    <cbc:DueDate>2024-11-07</cbc:DueDate>
+    <cbc:InvoiceTypeCode>381</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>RON</cbc:DocumentCurrencyCode>
+    <cbc:TaxCurrencyCode>EUR</cbc:TaxCurrencyCode>
+    <cac:InvoicePeriod>
+        <cbc:DescriptionCode>1</cbc:DescriptionCode>
+    </cac:InvoicePeriod>
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Crawford, Pena and Banks</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>152 Tyler Viaduct</cbc:StreetName>
+                <cbc:CityName>New Christineton</cbc:CityName>
+                <cbc:PostalZone>48724</cbc:PostalZone>
+                <cbc:CountrySubentity>RO-B</cbc:CountrySubentity>
+                <cac:Country>
+                    <cbc:IdentificationCode>RO</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+            <cac:PartyTaxScheme>
+                <cbc:CompanyID>6037817342</cbc:CompanyID>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                </cac:TaxScheme>
+            </cac:PartyTaxScheme>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName>Hicks Ltd</cbc:RegistrationName>
+            </cac:PartyLegalEntity>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Hendrix-Graham</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>2039 Doyle Mountain</cbc:StreetName>
+                <cbc:CityName>West Andrea</cbc:CityName>
+                <cbc:PostalZone>03101</cbc:PostalZone>
+                <cbc:CountrySubentity>RO-B</cbc:CountrySubentity>
+                <cac:Country>
+                    <cbc:IdentificationCode>RO</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+            <cac:PartyTaxScheme>
+                <cbc:CompanyID>5697862938</cbc:CompanyID>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                </cac:TaxScheme>
+            </cac:PartyTaxScheme>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName>Hicks, Estrada and Spencer</cbc:RegistrationName>
+            </cac:PartyLegalEntity>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+    <cac:Delivery>
+        <cac:DeliveryLocation>
+            <cac:Address>
+                <cbc:StreetName>75028 Williams Park Suite 364</cbc:StreetName>
+                <cbc:CityName>South Todd</cbc:CityName>
+                <cbc:PostalZone>81786</cbc:PostalZone>
+                <cbc:CountrySubentity>RO-AB</cbc:CountrySubentity>
+                <cac:Country>
+                    <cbc:IdentificationCode>RO</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:Address>
+        </cac:DeliveryLocation>
+    </cac:Delivery>
+    <cac:PaymentMeans>
+        <cbc:PaymentMeansCode>7</cbc:PaymentMeansCode>
+    </cac:PaymentMeans>
+    <cac:TaxTotal>
+        <cbc:TaxAmount currencyID="RON">869.92</cbc:TaxAmount>
+        <cac:TaxSubtotal>
+            <cbc:TaxableAmount currencyID="RON">8053.89</cbc:TaxableAmount>
+            <cbc:TaxAmount currencyID="RON">869.92</cbc:TaxAmount>
+            <cac:TaxCategory>
+                <cbc:ID>E</cbc:ID>
+                <cbc:Percent>3.4</cbc:Percent>
+                <cbc:TaxExemptionReason>re-intermediate transparent technologies</cbc:TaxExemptionReason>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                </cac:TaxScheme>
+            </cac:TaxCategory>
+        </cac:TaxSubtotal>
+        <cac:TaxSubtotal>
+            <cbc:TaxableAmount currencyID="RON">8053.89</cbc:TaxableAmount>
+            <cbc:TaxAmount currencyID="RON">869.92</cbc:TaxAmount>
+            <cac:TaxCategory>
+                <cbc:ID>E</cbc:ID>
+                <cbc:Percent>3.4</cbc:Percent>
+                <cbc:TaxExemptionReasonCode>95811</cbc:TaxExemptionReasonCode>
+                <cbc:TaxExemptionReason>re-intermediate transparent technologies</cbc:TaxExemptionReason>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                </cac:TaxScheme>
+            </cac:TaxCategory>
+        </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:TaxTotal>
+        <cbc:TaxAmount currencyID="RON">869.92</cbc:TaxAmount>
+    </cac:TaxTotal>
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="RON">7238.92</cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="RON">1956.64</cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="RON">9794.89</cbc:TaxInclusiveAmount>
+        <cbc:AllowanceTotalAmount currencyID="RON">851.13</cbc:AllowanceTotalAmount>
+        <cbc:ChargeTotalAmount currencyID="RON">951.68</cbc:ChargeTotalAmount>
+        <cbc:PrepaidAmount currencyID="RON">7266.66</cbc:PrepaidAmount>
+        <cbc:PayableRoundingAmount currencyID="RON">22.7</cbc:PayableRoundingAmount>
+        <cbc:PayableAmount currencyID="RON">1673.61</cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="57">11.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="RON">7238.92</cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Name>read</cbc:Name>
+            <cac:ClassifiedTaxCategory>
+                <cbc:ID>N</cbc:ID>
+                <cbc:Percent>3.25</cbc:Percent>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                </cac:TaxScheme>
+            </cac:ClassifiedTaxCategory>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="RON">949.98</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+</Invoice>
+<!--XML generat cu aplicatia ANAF stage Beta-->

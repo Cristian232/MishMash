@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:ns4="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2 http://docs.oasis-open.org/ubl/os-UBL-2.1/xsd/maindoc/UBL-Invoice-2.1.xsd">
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:efactura.mfinante.ro:CIUS-RO:1.0.1</cbc:CustomizationID>
+    <cbc:ID>9818689744</cbc:ID>
+    <cbc:IssueDate>2023-03-02</cbc:IssueDate>
+    <cbc:DueDate>2024-11-03</cbc:DueDate>
+    <cbc:InvoiceTypeCode>382</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>RON</cbc:DocumentCurrencyCode>
+    <cbc:TaxCurrencyCode>EUR</cbc:TaxCurrencyCode>
+    <cac:InvoicePeriod>
+        <cbc:DescriptionCode>5</cbc:DescriptionCode>
+    </cac:InvoicePeriod>
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Long-Hughes</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>82106 Kelly Extensions Suite 167</cbc:StreetName>
+                <cbc:CityName>Anitachester</cbc:CityName>
+                <cbc:PostalZone>94258</cbc:PostalZone>
+                <cbc:CountrySubentity>RO-B</cbc:CountrySubentity>
+                <cac:Country>
+                    <cbc:IdentificationCode>RO</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+            <cac:PartyTaxScheme>
+                <cbc:CompanyID>9160268084</cbc:CompanyID>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                </cac:TaxScheme>
+            </cac:PartyTaxScheme>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName>Beltran Inc</cbc:RegistrationName>
+            </cac:PartyLegalEntity>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Sellers-Smith</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>360 Francisco Forge</cbc:StreetName>
+                <cbc:CityName>Loganmouth</cbc:CityName>
+                <cbc:PostalZone>61974</cbc:PostalZone>
+                <cbc:CountrySubentity>RO-B</cbc:CountrySubentity>
+                <cac:Country>
+                    <cbc:IdentificationCode>RO</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+            <cac:PartyTaxScheme>
+                <cbc:CompanyID>3768476045</cbc:CompanyID>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                </cac:TaxScheme>
+            </cac:PartyTaxScheme>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName>Brown-White</cbc:RegistrationName>
+            </cac:PartyLegalEntity>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+    <cac:Delivery>
+        <cac:DeliveryLocation>
+            <cac:Address>
+                <cbc:StreetName>7017 Flores Wall</cbc:StreetName>
+                <cbc:CityName>Port Jasonburgh</cbc:CityName>
+                <cbc:PostalZone>22027</cbc:PostalZone>
+                <cbc:CountrySubentity>RO-AB</cbc:CountrySubentity>
+                <cac:Country>
+                    <cbc:IdentificationCode>RO</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:Address>
+        </cac:DeliveryLocation>
+    </cac:Delivery>
+    <cac:PaymentMeans>
+        <cbc:PaymentMeansCode>9</cbc:PaymentMeansCode>
+    </cac:PaymentMeans>
+    <cac:TaxTotal>
+        <cbc:TaxAmount currencyID="RON">437.11</cbc:TaxAmount>
+        <cac:TaxSubtotal>
+            <cbc:TaxableAmount currencyID="RON">1370.97</cbc:TaxableAmount>
+            <cbc:TaxAmount currencyID="RON">437.11</cbc:TaxAmount>
+            <cac:TaxCategory>
+                <cbc:ID>E</cbc:ID>
+                <cbc:Percent>2.61</cbc:Percent>
+                <cbc:TaxExemptionReason>synergize leading-edge applications</cbc:TaxExemptionReason>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                </cac:TaxScheme>
+            </cac:TaxCategory>
+        </cac:TaxSubtotal>
+        <cac:TaxSubtotal>
+            <cbc:TaxableAmount currencyID="RON">1370.97</cbc:TaxableAmount>
+            <cbc:TaxAmount currencyID="RON">437.11</cbc:TaxAmount>
+            <cac:TaxCategory>
+                <cbc:ID>E</cbc:ID>
+                <cbc:Percent>2.61</cbc:Percent>
+                <cbc:TaxExemptionReasonCode>78290</cbc:TaxExemptionReasonCode>
+                <cbc:TaxExemptionReason>synergize leading-edge applications</cbc:TaxExemptionReason>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                </cac:TaxScheme>
+            </cac:TaxCategory>
+        </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:TaxTotal>
+        <cbc:TaxAmount currencyID="RON">437.11</cbc:TaxAmount>
+    </cac:TaxTotal>
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="RON">8443.79</cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="RON">4589.04</cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="RON">902.39</cbc:TaxInclusiveAmount>
+        <cbc:AllowanceTotalAmount currencyID="RON">892.24</cbc:AllowanceTotalAmount>
+        <cbc:ChargeTotalAmount currencyID="RON">266.66</cbc:ChargeTotalAmount>
+        <cbc:PrepaidAmount currencyID="RON">7998.32</cbc:PrepaidAmount>
+        <cbc:PayableRoundingAmount currencyID="RON">77.95</cbc:PayableRoundingAmount>
+        <cbc:PayableAmount currencyID="RON">5150.12</cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="57">87.14</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="RON">8443.79</cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Name>owner</cbc:Name>
+            <cac:ClassifiedTaxCategory>
+                <cbc:ID>E</cbc:ID>
+                <cbc:Percent>0.81</cbc:Percent>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                </cac:TaxScheme>
+            </cac:ClassifiedTaxCategory>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="RON">908.8</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+</Invoice>
+<!--XML generat cu aplicatia ANAF stage Beta-->

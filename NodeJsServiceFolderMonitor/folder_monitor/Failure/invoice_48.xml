@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:ns4="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2 http://docs.oasis-open.org/ubl/os-UBL-2.1/xsd/maindoc/UBL-Invoice-2.1.xsd">
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:efactura.mfinante.ro:CIUS-RO:1.0.1</cbc:CustomizationID>
+    <cbc:ID>8645966943</cbc:ID>
+    <cbc:IssueDate>2023-08-17</cbc:IssueDate>
+    <cbc:DueDate>2024-08-23</cbc:DueDate>
+    <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>RON</cbc:DocumentCurrencyCode>
+    <cbc:TaxCurrencyCode>EUR</cbc:TaxCurrencyCode>
+    <cac:InvoicePeriod>
+        <cbc:DescriptionCode>4</cbc:DescriptionCode>
+    </cac:InvoicePeriod>
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Johnson-Short</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>532 Peters Port</cbc:StreetName>
+                <cbc:CityName>East Tracy</cbc:CityName>
+                <cbc:PostalZone>45211</cbc:PostalZone>
+                <cbc:CountrySubentity>RO-B</cbc:CountrySubentity>
+                <cac:Country>
+                    <cbc:IdentificationCode>RO</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+            <cac:PartyTaxScheme>
+                <cbc:CompanyID>2430450848</cbc:CompanyID>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                </cac:TaxScheme>
+            </cac:PartyTaxScheme>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName>Wood-Boyer</cbc:RegistrationName>
+            </cac:PartyLegalEntity>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Mckee-Davis</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>0446 Debbie Street</cbc:StreetName>
+                <cbc:CityName>Port Josephberg</cbc:CityName>
+                <cbc:PostalZone>36454</cbc:PostalZone>
+                <cbc:CountrySubentity>RO-B</cbc:CountrySubentity>
+                <cac:Country>
+                    <cbc:IdentificationCode>RO</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+            <cac:PartyTaxScheme>
+                <cbc:CompanyID>1186992627</cbc:CompanyID>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                </cac:TaxScheme>
+            </cac:PartyTaxScheme>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName>Harris-Coleman</cbc:RegistrationName>
+            </cac:PartyLegalEntity>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+    <cac:Delivery>
+        <cac:DeliveryLocation>
+            <cac:Address>
+                <cbc:StreetName>53027 Sheila Creek Apt. 764</cbc:StreetName>
+                <cbc:CityName>Blevinsbury</cbc:CityName>
+                <cbc:PostalZone>93994</cbc:PostalZone>
+                <cbc:CountrySubentity>RO-AB</cbc:CountrySubentity>
+                <cac:Country>
+                    <cbc:IdentificationCode>RO</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:Address>
+        </cac:DeliveryLocation>
+    </cac:Delivery>
+    <cac:PaymentMeans>
+        <cbc:PaymentMeansCode>14</cbc:PaymentMeansCode>
+    </cac:PaymentMeans>
+    <cac:TaxTotal>
+        <cbc:TaxAmount currencyID="RON">918.69</cbc:TaxAmount>
+        <cac:TaxSubtotal>
+            <cbc:TaxableAmount currencyID="RON">6499.97</cbc:TaxableAmount>
+            <cbc:TaxAmount currencyID="RON">918.69</cbc:TaxAmount>
+            <cac:TaxCategory>
+                <cbc:ID>E</cbc:ID>
+                <cbc:Percent>0.53</cbc:Percent>
+                <cbc:TaxExemptionReason>transition proactive convergence</cbc:TaxExemptionReason>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                </cac:TaxScheme>
+            </cac:TaxCategory>
+        </cac:TaxSubtotal>
+        <cac:TaxSubtotal>
+            <cbc:TaxableAmount currencyID="RON">6499.97</cbc:TaxableAmount>
+            <cbc:TaxAmount currencyID="RON">918.69</cbc:TaxAmount>
+            <cac:TaxCategory>
+                <cbc:ID>E</cbc:ID>
+                <cbc:Percent>0.53</cbc:Percent>
+                <cbc:TaxExemptionReasonCode>96800</cbc:TaxExemptionReasonCode>
+                <cbc:TaxExemptionReason>transition proactive convergence</cbc:TaxExemptionReason>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                </cac:TaxScheme>
+            </cac:TaxCategory>
+        </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:TaxTotal>
+        <cbc:TaxAmount currencyID="RON">918.69</cbc:TaxAmount>
+    </cac:TaxTotal>
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="RON">4173.67</cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="RON">7176.7</cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="RON">3711.61</cbc:TaxInclusiveAmount>
+        <cbc:AllowanceTotalAmount currencyID="RON">248.59</cbc:AllowanceTotalAmount>
+        <cbc:ChargeTotalAmount currencyID="RON">724.48</cbc:ChargeTotalAmount>
+        <cbc:PrepaidAmount currencyID="RON">8886.12</cbc:PrepaidAmount>
+        <cbc:PayableRoundingAmount currencyID="RON">33.77</cbc:PayableRoundingAmount>
+        <cbc:PayableAmount currencyID="RON">-4937.61</cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="15">80.97</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="RON">4173.67</cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Name>forget</cbc:Name>
+            <cac:ClassifiedTaxCategory>
+                <cbc:ID>N</cbc:ID>
+                <cbc:Percent>0.66</cbc:Percent>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                </cac:TaxScheme>
+            </cac:ClassifiedTaxCategory>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="RON">354.44</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+</Invoice>
+<!--XML generat cu aplicatia ANAF stage Beta-->

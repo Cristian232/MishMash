@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+         xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1"
+         xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:customization:2.0</cbc:CustomizationID>
+    <cbc:ProfileID>urn:profile:BIER-CIUS</cbc:ProfileID>
+    <cbc:ID>INV123456</cbc:ID>
+    <cbc:IssueDate>2024-01-15</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
+    <cbc:Note>Payment due in 30 days.</cbc:Note>
+    <cbc:TaxPointDate>2024-01-15</cbc:TaxPointDate>
+    <cbc:DocumentCurrencyCode>USD</cbc:DocumentCurrencyCode>
+    <cac:OrderReference>
+        <cbc:ID>PO12345</cbc:ID>
+    </cac:OrderReference>
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>ABC Electronics</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>123 Main Street</cbc:StreetName>
+                <cbc:CityName>Cityville</cbc:CityName>
+                <cbc:PostalZone>12345</cbc:PostalZone>
+                <cbc:CountrySubentity>State</cbc:CountrySubentity>
+                <cac:Country>
+                    <cbc:IdentificationCode>US</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+            <cac:PartyTaxScheme>
+                <cbc:CompanyID>123456789</cbc:CompanyID>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                </cac:TaxScheme>
+            </cac:PartyTaxScheme>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Customer Co.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>456 Oak Avenue</cbc:StreetName>
+                <cbc:CityName>Townsville</cbc:CityName>
+                <cbc:PostalZone>54321</cbc:PostalZone>
+                <cbc:CountrySubentity>County</cbc:CountrySubentity>
+                <cac:Country>
+                    <cbc:IdentificationCode>US</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+            <cac:PartyTaxScheme>
+                <cbc:CompanyID>987654321</cbc:CompanyID>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                </cac:TaxScheme>
+            </cac:PartyTaxScheme>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="USD">1000.00</cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="USD">1000.00</cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="USD">1120.00</cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="USD">1120.00</cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+    <cac:TaxTotal>
+        <cbc:TaxAmount currencyID="USD">120.00</cbc:TaxAmount>
+        <cac:TaxSubtotal>
+            <cbc:TaxableAmount currencyID="USD">1000.00</cbc:TaxableAmount>
+            <cbc:TaxAmount currencyID="USD">120.00</cbc:TaxAmount>
+            <cac:TaxCategory>
+                <cbc:ID>VAT</cbc:ID>
+            </cac:TaxCategory>
+        </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">10</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">1000.00</cbc:LineExtensionAmount>
+        <cac:TaxTotal>
+            <cbc:TaxAmount currencyID="USD">120.00</cbc:TaxAmount>
+            <cac:TaxSubtotal>
+                <cbc:TaxableAmount currencyID="USD">1000.00</cbc:TaxableAmount>
+                <cbc:TaxAmount currencyID="USD">120.00</cbc:TaxAmount>
+                <cac:TaxCategory>
+                    <cbc:ID>VAT</cbc:ID>
+                </cac:TaxCategory>
+            </cac:TaxSubtotal>
+        </cac:TaxTotal>
+    </cac:InvoiceLine>
+</Invoice>

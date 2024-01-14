@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:ns4="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2 http://docs.oasis-open.org/ubl/os-UBL-2.1/xsd/maindoc/UBL-Invoice-2.1.xsd">
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:efactura.mfinante.ro:CIUS-RO:1.0.1</cbc:CustomizationID>
+    <cbc:ID>7390805509</cbc:ID>
+    <cbc:IssueDate>2023-06-18</cbc:IssueDate>
+    <cbc:DueDate>2024-02-06</cbc:DueDate>
+    <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>RON</cbc:DocumentCurrencyCode>
+    <cbc:TaxCurrencyCode>EUR</cbc:TaxCurrencyCode>
+    <cac:InvoicePeriod>
+        <cbc:DescriptionCode>5</cbc:DescriptionCode>
+    </cac:InvoicePeriod>
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Carter and Sons</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>943 Morgan Dam</cbc:StreetName>
+                <cbc:CityName>Dianaburgh</cbc:CityName>
+                <cbc:PostalZone>01301</cbc:PostalZone>
+                <cbc:CountrySubentity>RO-B</cbc:CountrySubentity>
+                <cac:Country>
+                    <cbc:IdentificationCode>RO</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+            <cac:PartyTaxScheme>
+                <cbc:CompanyID>6007947454</cbc:CompanyID>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                </cac:TaxScheme>
+            </cac:PartyTaxScheme>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName>Turner PLC</cbc:RegistrationName>
+            </cac:PartyLegalEntity>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Kaufman, Thomas and Williams</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>41499 Baker Pike</cbc:StreetName>
+                <cbc:CityName>West Peggy</cbc:CityName>
+                <cbc:PostalZone>94848</cbc:PostalZone>
+                <cbc:CountrySubentity>RO-B</cbc:CountrySubentity>
+                <cac:Country>
+                    <cbc:IdentificationCode>RO</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+            <cac:PartyTaxScheme>
+                <cbc:CompanyID>944015046</cbc:CompanyID>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                </cac:TaxScheme>
+            </cac:PartyTaxScheme>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName>Cantu Group</cbc:RegistrationName>
+            </cac:PartyLegalEntity>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+    <cac:Delivery>
+        <cac:DeliveryLocation>
+            <cac:Address>
+                <cbc:StreetName>306 Thomas Springs Suite 989</cbc:StreetName>
+                <cbc:CityName>North Sierrafurt</cbc:CityName>
+                <cbc:PostalZone>75293</cbc:PostalZone>
+                <cbc:CountrySubentity>RO-AB</cbc:CountrySubentity>
+                <cac:Country>
+                    <cbc:IdentificationCode>RO</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:Address>
+        </cac:DeliveryLocation>
+    </cac:Delivery>
+    <cac:PaymentMeans>
+        <cbc:PaymentMeansCode>15</cbc:PaymentMeansCode>
+    </cac:PaymentMeans>
+    <cac:TaxTotal>
+        <cbc:TaxAmount currencyID="RON">1.97</cbc:TaxAmount>
+        <cac:TaxSubtotal>
+            <cbc:TaxableAmount currencyID="RON">5371.56</cbc:TaxableAmount>
+            <cbc:TaxAmount currencyID="RON">1.97</cbc:TaxAmount>
+            <cac:TaxCategory>
+                <cbc:ID>K</cbc:ID>
+                <cbc:Percent>3.32</cbc:Percent>
+                <cbc:TaxExemptionReason>revolutionize collaborative synergies</cbc:TaxExemptionReason>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                </cac:TaxScheme>
+            </cac:TaxCategory>
+        </cac:TaxSubtotal>
+        <cac:TaxSubtotal>
+            <cbc:TaxableAmount currencyID="RON">5371.56</cbc:TaxableAmount>
+            <cbc:TaxAmount currencyID="RON">1.97</cbc:TaxAmount>
+            <cac:TaxCategory>
+                <cbc:ID>K</cbc:ID>
+                <cbc:Percent>3.32</cbc:Percent>
+                <cbc:TaxExemptionReasonCode>67218</cbc:TaxExemptionReasonCode>
+                <cbc:TaxExemptionReason>revolutionize collaborative synergies</cbc:TaxExemptionReason>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                </cac:TaxScheme>
+            </cac:TaxCategory>
+        </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:TaxTotal>
+        <cbc:TaxAmount currencyID="RON">1.97</cbc:TaxAmount>
+    </cac:TaxTotal>
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="RON">5657.1</cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="RON">1734.59</cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="RON">8043.63</cbc:TaxInclusiveAmount>
+        <cbc:AllowanceTotalAmount currencyID="RON">885.99</cbc:AllowanceTotalAmount>
+        <cbc:ChargeTotalAmount currencyID="RON">863.46</cbc:ChargeTotalAmount>
+        <cbc:PrepaidAmount currencyID="RON">8019.57</cbc:PrepaidAmount>
+        <cbc:PayableRoundingAmount currencyID="RON">37.85</cbc:PayableRoundingAmount>
+        <cbc:PayableAmount currencyID="RON">9777.57</cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="24">19.52</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="RON">5657.1</cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Name>building</cbc:Name>
+            <cac:ClassifiedTaxCategory>
+                <cbc:ID>K</cbc:ID>
+                <cbc:Percent>0.51</cbc:Percent>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                </cac:TaxScheme>
+            </cac:ClassifiedTaxCategory>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="RON">669.71</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+</Invoice>
+<!--XML generat cu aplicatia ANAF stage Beta-->

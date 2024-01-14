@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:ns4="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2 http://docs.oasis-open.org/ubl/os-UBL-2.1/xsd/maindoc/UBL-Invoice-2.1.xsd">
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:efactura.mfinante.ro:CIUS-RO:1.0.1</cbc:CustomizationID>
+    <cbc:ID>6719414155</cbc:ID>
+    <cbc:IssueDate>2023-11-30</cbc:IssueDate>
+    <cbc:DueDate>2024-12-21</cbc:DueDate>
+    <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>RON</cbc:DocumentCurrencyCode>
+    <cbc:TaxCurrencyCode>EUR</cbc:TaxCurrencyCode>
+    <cac:InvoicePeriod>
+        <cbc:DescriptionCode>1</cbc:DescriptionCode>
+    </cac:InvoicePeriod>
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Smith-Garcia</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>47582 Whitney Path Suite 332</cbc:StreetName>
+                <cbc:CityName>Petersonview</cbc:CityName>
+                <cbc:PostalZone>76616</cbc:PostalZone>
+                <cbc:CountrySubentity>RO-B</cbc:CountrySubentity>
+                <cac:Country>
+                    <cbc:IdentificationCode>RO</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+            <cac:PartyTaxScheme>
+                <cbc:CompanyID>4959275182</cbc:CompanyID>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                </cac:TaxScheme>
+            </cac:PartyTaxScheme>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName>Rodriguez, Walker and Osborne</cbc:RegistrationName>
+            </cac:PartyLegalEntity>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Bailey, Thompson and Rivera</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>6860 Reynolds Ports Suite 649</cbc:StreetName>
+                <cbc:CityName>Sanchezshire</cbc:CityName>
+                <cbc:PostalZone>87484</cbc:PostalZone>
+                <cbc:CountrySubentity>RO-B</cbc:CountrySubentity>
+                <cac:Country>
+                    <cbc:IdentificationCode>RO</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+            <cac:PartyTaxScheme>
+                <cbc:CompanyID>9655570039</cbc:CompanyID>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                </cac:TaxScheme>
+            </cac:PartyTaxScheme>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName>Roberts LLC</cbc:RegistrationName>
+            </cac:PartyLegalEntity>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+    <cac:Delivery>
+        <cac:DeliveryLocation>
+            <cac:Address>
+                <cbc:StreetName>5279 Miller Streets Apt. 859</cbc:StreetName>
+                <cbc:CityName>South Dylanbury</cbc:CityName>
+                <cbc:PostalZone>62753</cbc:PostalZone>
+                <cbc:CountrySubentity>RO-AB</cbc:CountrySubentity>
+                <cac:Country>
+                    <cbc:IdentificationCode>RO</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:Address>
+        </cac:DeliveryLocation>
+    </cac:Delivery>
+    <cac:PaymentMeans>
+        <cbc:PaymentMeansCode>4</cbc:PaymentMeansCode>
+    </cac:PaymentMeans>
+    <cac:TaxTotal>
+        <cbc:TaxAmount currencyID="RON">652.76</cbc:TaxAmount>
+        <cac:TaxSubtotal>
+            <cbc:TaxableAmount currencyID="RON">6771.0</cbc:TaxableAmount>
+            <cbc:TaxAmount currencyID="RON">652.76</cbc:TaxAmount>
+            <cac:TaxCategory>
+                <cbc:ID>N</cbc:ID>
+                <cbc:Percent>3.09</cbc:Percent>
+                <cbc:TaxExemptionReason>unleash transparent platforms</cbc:TaxExemptionReason>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                </cac:TaxScheme>
+            </cac:TaxCategory>
+        </cac:TaxSubtotal>
+        <cac:TaxSubtotal>
+            <cbc:TaxableAmount currencyID="RON">6771.0</cbc:TaxableAmount>
+            <cbc:TaxAmount currencyID="RON">652.76</cbc:TaxAmount>
+            <cac:TaxCategory>
+                <cbc:ID>N</cbc:ID>
+                <cbc:Percent>3.09</cbc:Percent>
+                <cbc:TaxExemptionReasonCode>81263</cbc:TaxExemptionReasonCode>
+                <cbc:TaxExemptionReason>unleash transparent platforms</cbc:TaxExemptionReason>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                </cac:TaxScheme>
+            </cac:TaxCategory>
+        </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:TaxTotal>
+        <cbc:TaxAmount currencyID="RON">652.76</cbc:TaxAmount>
+    </cac:TaxTotal>
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="RON">5904.73</cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="RON">2389.63</cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="RON">926.1</cbc:TaxInclusiveAmount>
+        <cbc:AllowanceTotalAmount currencyID="RON">747.64</cbc:AllowanceTotalAmount>
+        <cbc:ChargeTotalAmount currencyID="RON">620.97</cbc:ChargeTotalAmount>
+        <cbc:PrepaidAmount currencyID="RON">327.05</cbc:PrepaidAmount>
+        <cbc:PayableRoundingAmount currencyID="RON">86.33</cbc:PayableRoundingAmount>
+        <cbc:PayableAmount currencyID="RON">-2130.71</cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="24">2.48</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="RON">5904.73</cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Name>mind</cbc:Name>
+            <cac:ClassifiedTaxCategory>
+                <cbc:ID>N</cbc:ID>
+                <cbc:Percent>0.86</cbc:Percent>
+                <cac:TaxScheme>
+                    <cbc:ID>VAT</cbc:ID>
+                </cac:TaxScheme>
+            </cac:ClassifiedTaxCategory>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="RON">9.06</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+</Invoice>
+<!--XML generat cu aplicatia ANAF stage Beta-->
